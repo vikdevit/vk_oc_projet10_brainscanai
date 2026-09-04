@@ -5,11 +5,20 @@
 # ------------------------------------------------------------
 # Données - NE JAMAIS VERSIONNER
 # ------------------------------------------------------------
-data/raw/
-data/interim/
-data/processed/
 
+# Dataset original : images et données sources
+data/raw/
+
+# Données générées/intermédiaires : conserver uniquement .gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# ------------------------------------------------------------
 # Fichiers image - protection supplémentaire
+# ------------------------------------------------------------
 *.jpg
 *.jpeg
 *.png
@@ -21,7 +30,10 @@ data/processed/
 # ------------------------------------------------------------
 # Modèles et artefacts lourds
 # ------------------------------------------------------------
-models/
+
+# Conserver uniquement le .gitkeep
+models/*
+!models/.gitkeep
 
 *.pt
 *.pth
@@ -33,7 +45,10 @@ models/
 # ------------------------------------------------------------
 # Logs
 # ------------------------------------------------------------
-logs/
+
+# Conserver uniquement le .gitkeep
+logs/*
+!logs/.gitkeep
 
 *.log
 
