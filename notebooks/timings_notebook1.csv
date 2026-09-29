@@ -1,0 +1,5 @@
+notebook,etape,type,nb_images,repetitions,temps_secondes
+Notebook 1,Initialisation ResNet-50,Initialisation,0,1,0.23625920100039366
+Notebook 1,Extraction d'un embedding ResNet-50,Calcul GPU,1,1,0.23489569100001972
+Notebook 1,Extraction d'un embedding ResNet-50,Calcul GPU,1,1,0.003216074999727425
+Notebook 1,Extraction des embeddings ResNet-50,Calcul GPU,1410,1,5.160068993000095
